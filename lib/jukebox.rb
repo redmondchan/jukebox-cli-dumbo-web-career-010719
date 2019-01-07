@@ -17,3 +17,9 @@ def help
 - play : lets you choose a song to play
 - exit : exits this program"
 end
+
+def list(my_songs)
+  my_songs.each {|key, value
+puts "#{key}"
+  }
+end
