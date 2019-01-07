@@ -19,7 +19,7 @@ def help
 end
 
 def list(my_songs)
-  my_songs.each {|key, value
+  my_songs.each {|key, value|
 puts "#{key}"
   }
 end
